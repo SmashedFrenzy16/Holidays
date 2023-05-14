@@ -3,7 +3,7 @@ from holidays import *
 
 class CustomHolidays():
     
-    def _fill(self, year):
+    def _populate(self, year):
 
         UK._populate(self, year)
 
